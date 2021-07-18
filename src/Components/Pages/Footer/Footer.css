@@ -1,0 +1,115 @@
+.footer-section,
+.footer-section-left,
+.footer-section-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.footer-section.active {
+    display: none;
+}
+
+.footer-section {
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: var(--PureBlack);
+}
+
+.footer-location {
+    padding: 20px 20px;
+}
+
+.footer-location h1,
+.footer-section-right button {
+    font-family: var(--Oswald);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--White);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-location h3 {
+    font-family: var(--Rambla);
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--Tomato);
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+}
+
+.footer-section-right button {
+    background-color: var(--Tomato);
+    padding: 0px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-section-right button a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+.fa-angle-double-down {
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(-0.5rem);
+    }
+    50% {
+        transform: translateY(0.5rem);
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-section,
+    .footer-section-right {
+        display: inline-block;
+        justify-content: center;
+        text-align: start;
+        width: 100%;
+        margin: 0px auto;
+        position: relative;
+        background-color: var(--Black);
+        z-index: 0;
+    }
+    .footer-location {
+        padding: 5% 4%;
+        width: 100%;
+    }
+    .footer-section-right button {
+        padding: 5% 5%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-section,
+    .footer-section-left,
+    .footer-section-right {
+        display: inline-block;
+        justify-content: center;
+        text-align: start;
+        width: 100%;
+        margin: 0px auto;
+        position: relative;
+        background-color: var(--Black);
+        z-index: 0;
+    }
+    .footer-location {
+        padding: 5% 10%;
+        width: 100%;
+    }
+    .footer-section-right button {
+        padding: 10% 5%;
+        width: 100%;
+    }
+}

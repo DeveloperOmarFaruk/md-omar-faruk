@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import React, { useState, createContext } from "react";
+import Header from "./Components/Header/Header";
+import "./App.css";
+import Footer from "./Components/Pages/Footer/Footer";
+import ScrollButton from "./Components/ScrollButton/ScrollButton";
+
+export const UserContext = createContext([]);
 
 function App() {
+  const [click, setClick] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <UserContext.Provider value={[click, setClick]}>
+        <Router>
+          <Header />
+          <ScrollButton />
+          <Footer />
+        </Router>
+      </UserContext.Provider>
+    </>
   );
 }
-
 export default App;

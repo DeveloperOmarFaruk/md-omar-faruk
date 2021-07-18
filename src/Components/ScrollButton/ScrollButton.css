@@ -1,0 +1,46 @@
+.scrollTop-btn {
+    position: fixed;
+    width: 100%;
+    left: 95%;
+    bottom: 40px;
+    height: 20px;
+    font-size: 2rem;
+    z-index: 10;
+    cursor: pointer;
+    color: var(--Gray-6);
+    display: inline-block;
+}
+
+.fa-angle-double-up {
+    border: 1px solid var(--Tomato);
+    border-radius: 30%;
+    padding: 10px;
+    animation: float 3s linear infinite;
+    font-size: 20px;
+    color: var(--White);
+    background-color: var(--PureBlack);
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(-0.5rem);
+    }
+    50% {
+        transform: translateY(0.5rem);
+    }
+}
+
+@media (max-width: 1024px) {
+    .scrollTop-btn {
+        left: 50%;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .scrollTop-btn {
+        left: 85%;
+        font-size: 1.5rem;
+    }
+}
