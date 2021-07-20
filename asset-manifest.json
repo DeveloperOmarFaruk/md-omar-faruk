@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/md-omar-faruk/static/css/main.c0ae8219.chunk.css",
-    "main.js": "/md-omar-faruk/static/js/main.903e893b.chunk.js",
-    "main.js.map": "/md-omar-faruk/static/js/main.903e893b.chunk.js.map",
+    "main.js": "/md-omar-faruk/static/js/main.92a1de66.chunk.js",
+    "main.js.map": "/md-omar-faruk/static/js/main.92a1de66.chunk.js.map",
     "runtime-main.js": "/md-omar-faruk/static/js/runtime-main.1459d1e8.js",
     "runtime-main.js.map": "/md-omar-faruk/static/js/runtime-main.1459d1e8.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/md-omar-faruk/static/css/2.7fc9bc2b.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.7fc9bc2b.chunk.css.map": "/md-omar-faruk/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.c0ae8219.chunk.css.map": "/md-omar-faruk/static/css/main.c0ae8219.chunk.css.map",
     "static/js/2.66a58626.chunk.js.LICENSE.txt": "/md-omar-faruk/static/js/2.66a58626.chunk.js.LICENSE.txt",
-    "static/media/Frontend_Developer_OmarFaruk_Resume.2be60e10.pdf": "/md-omar-faruk/static/media/Frontend_Developer_OmarFaruk_Resume.2be60e10.pdf",
+    "static/media/Frontend_Reactjs_Developer_Md_Omar_Faruk_Resume.848b0892.pdf": "/md-omar-faruk/static/media/Frontend_Reactjs_Developer_Md_Omar_Faruk_Resume.848b0892.pdf",
     "static/media/a-mart.1a4f8e1c.png": "/md-omar-faruk/static/media/a-mart.1a4f8e1c.png",
     "static/media/Portfolio.css": "/md-omar-faruk/static/media/bg-right - Copy.53d3e82f.png",
     "static/media/bir-burger.41d753a8.png": "/md-omar-faruk/static/media/bir-burger.41d753a8.png",
@@ -63,6 +63,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.66a58626.chunk.js",
     "static/css/main.c0ae8219.chunk.css",
-    "static/js/main.903e893b.chunk.js"
+    "static/js/main.92a1de66.chunk.js"
   ]
 }
