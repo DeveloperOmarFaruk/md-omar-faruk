@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Footer.css";
 import { UserContext } from "../../../App";
-import Frontend_Developer_OmarFaruk_Resume from "../../../Images/Frontend_Developer_OmarFaruk_Resume.pdf";
+import Frontend_Developer_OmarFaruk_Resume from "../../../Images/Frontend_Reactjs_Developer_Md_Omar_Faruk_Resume.pdf";
 
 const Footer = () => {
   const [click, setClick] = useContext(UserContext);
