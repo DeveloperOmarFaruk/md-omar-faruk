@@ -132,6 +132,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        border: 1px solid Var(--Gray);
     }
     .nav-links {
         text-align: center;
@@ -200,6 +201,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        border: 1px solid Var(--Gray);
     }
     .nav-links {
         text-align: center;
